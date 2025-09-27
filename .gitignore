@@ -1,0 +1,7 @@
+.vs/
+Backup/
+Backup1/
+packages/
+bin/
+installer/Debug
+installer/Release

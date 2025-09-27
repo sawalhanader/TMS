@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>http://localhost/update/|C:\Users\Sawalha\Desktop\nadergps\|G:\gps-ctcs\|C:\Users\Sawalha\Desktop\GPSCTCS\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://localhost/update/|https://www.drivehq.com/file/DFPublishFile.aspx/FileID1253388284/Keybadwvlpvmn1m/setup.exe/</InstallUrlHistory>
+    <SupportUrlHistory>https://www.drivehq.com/file/DFPublishFile.aspx/FileID1253388284/Keybadwvlpvmn1m/setup.exe</SupportUrlHistory>
+    <UpdateUrlHistory>http://localhost/update/|https://www.drivehq.com/file/DFPublishFile.aspx/FileID1253388284/Keybadwvlpvmn1m/setup.exe/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+</Project>

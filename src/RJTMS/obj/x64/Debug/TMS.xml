@@ -1,0 +1,488 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TMS
+</name>
+</assembly>
+<members>
+<member name="T:TMS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TMS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TMS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.busTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.GSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.Paste_ErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters._هواتف_عربي___ImportErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters._هواتف_عربي___ImportErrors1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateAll(TMS.CMNDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.busTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.GssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.OfficeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.Paste_ErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters._هواتف_عربي___ImportErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters._هواتف_عربي___ImportErrors1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateAll(TMS.CMNDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TMS.noteDetails">
+ <summary>
+ Form used to create or edit a single note record in the Notes table.
+ Supports creating new notes for a specific date or editing an existing note by Id.
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.connStr">
+ <summary>
+ Connection string read from application settings (__My.Settings.remoteDB__).
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.MAX_NOTE_LENGTH">
+ <summary>
+ Maximum allowed note length to avoid very large payloads and DoS by huge input.
+ Adjust to match the database column length (NVARCHAR(MAX) can be -1; pick a reasonable app-side limit).
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.modeIsEdit">
+ <summary>
+ True when the form operates in Edit mode (editing an existing note).
+ False when creating a new note.
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.editId">
+ <summary>
+ When in edit mode, holds the database Id of the note being edited.
+ </summary>
+</member>
+<member name="M:TMS.noteDetails.#ctor(System.DateTime)">
+ <summary>
+ Constructor used to create a new note pre-populated for a specific date.
+ Initializes UI, sets default states and wires necessary event handlers.
+ </summary>
+ <param name="selectedDate">Date to assign to the new note (time portion is ignored).</param>
+</member>
+<member name="M:TMS.noteDetails.#ctor(System.Int32)">
+ <summary>
+ Constructor used to edit an existing note by Id.
+ Loads the existing note data into the form fields.
+ </summary>
+ <param name="noteId">Database Id of the note to edit.</param>
+</member>
+<member name="M:TMS.noteDetails.LoadNoteById(System.Int32)">
+ <summary>
+ Loads a note record from the database and populates the UI fields.
+ If the record is not found the form is closed.
+ </summary>
+ <param name="id">Database Id of the note to load.</param>
+</member>
+<member name="M:TMS.noteDetails.btnsave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save (insert or update) the current note to the database.
+ This handler is wired to the Save button click.
+ </summary>
+ <param name="sender">The source of the event (Save button).</param>
+ <param name="e">Event arguments.</param>
+</member>
+<member name="M:TMS.noteDetails.btndelete_Click(System.Object,System.EventArgs)">
+ <summary>       
+ Handler for the Delete button. Prompts for confirmation and then deletes the record.
+ Only active when editing an existing note.
+ </summary>
+ <param name="sender">The source of the event (Delete button).</param>
+ <param name="e">Event arguments.</param>
+</member>
+<member name="M:TMS.noteDetails.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+ <summary>
+ Ensure event handlers are removed when the form is closed to avoid duplicate invocations
+ if the form instance is recreated during the lifetime of the application.
+ </summary>
+ <param name="e">Form closed event arguments.</param>
+</member>
+</members>
+</doc>

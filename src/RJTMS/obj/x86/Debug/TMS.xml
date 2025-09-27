@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TMS
+</name>
+</assembly>
+<members>
+<member name="T:TMS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TMS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TMS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TMS.AboutBox.AboutBox_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the AboutBox. Sets form title and label values based on application info.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.AboutBox.OKButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for the OK button. Closes the AboutBox form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="T:TMS.CMNDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.busRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.GSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.Paste_ErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet.__هواتف_عربي___ImportErrors1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.busTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.GSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.Paste_ErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters._هواتف_عربي___ImportErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters._هواتف_عربي___ImportErrors1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TMS.CMNDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateAll(TMS.CMNDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TMS.CMNDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.busRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.GssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.OfficeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.Paste_ErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1.__هواتف_عربي___ImportErrors1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.busTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.GssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.OfficeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.Paste_ErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters._هواتف_عربي___ImportErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters._هواتف_عربي___ImportErrors1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(TMS.CMNDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateAll(TMS.CMNDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.busDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.GssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.mobileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.OfficeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.Paste_ErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.smsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrors1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.busRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.GssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.mobileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.OfficeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.Paste_ErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.smsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrors1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.busRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.GssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.mobileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.OfficeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.Paste_ErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.smsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2.__هواتف_عربي___ImportErrors1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.busTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.GssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.mobileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.OfficeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.Paste_ErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.smsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters._هواتف_عربي___ImportErrorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters._هواتف_عربي___ImportErrors1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(TMS.CMNDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(TMS.CMNDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(TMS.CMNDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TMS.CMNDataSet2TableAdapters.TableAdapterManager.UpdateAll(TMS.CMNDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TMS.CMNDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:TMS.usersControl.usersControl_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the load event for the usersControl. Initializes roles, user list, and permissions UI.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.LoadAllUsers">
+ <summary>
+ Loads all users from the database and populates the usersList ListView.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.CreatePermissionCheckboxes(System.Windows.Forms.GroupBox,System.Collections.Generic.Dictionary{System.String,System.ValueTuple{System.String,System.String}},System.Boolean)">
+ <summary>
+ Creates permission checkboxes in the specified group box based on the provided mapping.
+ </summary>
+ <param name="container">The group box container</param>
+ <param name="permissionMapping">The permission mapping dictionary</param>
+ <param name="allChecked">If true, all checkboxes are checked by default.</param>
+</member>
+<member name="M:TMS.usersControl.LoadPermissions(System.Int32)">
+ <summary>
+ Loads permission values for a user into the permission checkboxes for both tables.
+ </summary>
+ <param name="userId">The user ID whose permissions to load.</param>
+</member>
+<member name="M:TMS.usersControl.LoadPermissionsForTable(System.Int32,System.String,System.Windows.Forms.GroupBox,System.Collections.Generic.Dictionary{System.String,System.ValueTuple{System.String,System.String}})">
+ <summary>
+ Loads permission values for a specific table into the corresponding group box.
+ </summary>
+ <param name="userId">The user ID</param>
+ <param name="tableName">The table name</param>
+ <param name="container">The group box container</param>
+ <param name="mapping">The permission mapping</param>
+</member>
+<member name="M:TMS.usersControl.usersList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the selection change event for the usersList ListView. Loads user details and permissions.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.Search_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the text changed event for the Search textbox. Filters the user list based on search text.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.btnLoad_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for the btnLoad button. Creates or updates a user and their permissions.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.InsertPermissions(Microsoft.Data.SqlClient.SqlConnection,Microsoft.Data.SqlClient.SqlTransaction,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Int32},System.String)">
+ <summary>
+ Inserts permissions into a permissions table
+ </summary>
+</member>
+<member name="M:TMS.usersControl.UpdatePermissionsTable(Microsoft.Data.SqlClient.SqlConnection,Microsoft.Data.SqlClient.SqlTransaction,System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Int32},System.String)">
+ <summary>
+ Updates permissions in a permissions table
+ </summary>
+</member>
+<member name="M:TMS.usersControl.LinkLabel1_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+ <summary>
+ Handles the Add New User link click event. Resets fields and creates standard permission checkboxes.
+ </summary>
+</member>
+<member name="M:TMS.usersControl.delete_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the delete button click event. Deletes the selected user and their permissions from the database.
+ </summary>
+</member>
+<member name="T:TMS.noteDetails">
+ <summary>
+ Form used to create or edit a single note record in the Notes table.
+ Supports creating new notes for a specific date or editing an existing note by Id.
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.connStr">
+ <summary>
+ Connection string read from application settings (__My.Settings.remoteDB__).
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.MAX_NOTE_LENGTH">
+ <summary>
+ Maximum allowed note length to avoid very large payloads and DoS by huge input.
+ Adjust to match the database column length (NVARCHAR(MAX) can be -1; pick a reasonable app-side limit).
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.modeIsEdit">
+ <summary>
+ True when the form operates in Edit mode (editing an existing note).
+ False when creating a new note.
+ </summary>
+</member>
+<member name="F:TMS.noteDetails.editId">
+ <summary>
+ When in edit mode, holds the database Id of the note being edited.
+ </summary>
+</member>
+<member name="M:TMS.noteDetails.#ctor(System.DateTime)">
+ <summary>
+ Constructor used to create a new note pre-populated for a specific date.
+ Initializes UI, sets default states and wires necessary event handlers.
+ </summary>
+ <param name="selectedDate">Date to assign to the new note (time portion is ignored).</param>
+</member>
+<member name="M:TMS.noteDetails.#ctor(System.Int32)">
+ <summary>
+ Constructor used to edit an existing note by Id.
+ Loads the existing note data into the form fields.
+ </summary>
+ <param name="noteId">Database Id of the note to edit.</param>
+</member>
+<member name="M:TMS.noteDetails.LoadNoteById(System.Int32)">
+ <summary>
+ Loads a note record from the database and populates the UI fields.
+ If the record is not found the form is closed.
+ </summary>
+ <param name="id">Database Id of the note to load.</param>
+</member>
+<member name="M:TMS.noteDetails.btnsave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Save (insert or update) the current note to the database.
+ This handler is wired to the Save button click.
+ </summary>
+ <param name="sender">The source of the event (Save button).</param>
+ <param name="e">Event arguments.</param>
+</member>
+<member name="M:TMS.noteDetails.btndelete_Click(System.Object,System.EventArgs)">
+ <summary>       
+ Handler for the Delete button. Prompts for confirmation and then deletes the record.
+ Only active when editing an existing note.
+ </summary>
+ <param name="sender">The source of the event (Delete button).</param>
+ <param name="e">Event arguments.</param>
+</member>
+<member name="M:TMS.noteDetails.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+ <summary>
+ Ensure event handlers are removed when the form is closed to avoid duplicate invocations
+ if the form instance is recreated during the lifetime of the application.
+ </summary>
+ <param name="e">Form closed event arguments.</param>
+</member>
+<member name="M:TMS.rosterAddFlight.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the OK button click event. Inserts new crew records into FullRoster based on the DataGridView values.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterAddFlight.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Cancel button click event. Closes the form and sets DialogResult to Cancel.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterAddFlight.rosterAddFlight_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the rosterAddFlight form. Opens the connection if closed and sets Label3 text.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterAddFlight.Da1_CellValueChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellValueChanged event for Da1. Populates row details from the mobile table when a cell value changes.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A DataGridViewCellEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterAddFlight.Da1_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellContentClick event for Da1. (No implementation)
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A DataGridViewCellEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.arrAddFlight.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Cancel button click event. Sets DialogResult to Cancel and closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.arrAddFlight.Da1_CellValueChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellValueChanged event for Da1. Populates row details from the mobile table when a cell value changes.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A DataGridViewCellEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.arrAddFlight.arrAddFlight_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+ <summary>
+ Handles the FormClosed event for arrAddFlight. Closes the connection if open.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A FormClosedEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.arrAddFlight.OK_Button_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Handles the OK button click event. Inserts new crew records into Arrival based on the DataGridView values.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.editDate.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the OK button click event. Updates flight, briefing, date, and pickup time for selected records.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.editDate.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Cancel button click event. Closes the form and sets DialogResult to Cancel.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.editDate.EditDate_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the editDate form. Loads crew data for editing and sets up the form fields.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertnew.insertnew_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the insertnew form. Loads roster data and sets label values.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertnew.TextBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for TextBox1. Adds a new row to Da1 when Enter is pressed and a valid ID is entered.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertnew.Button1_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for Button1. Inserts a new crew record into FullRoster if an ID is provided.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertnew.Da1_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Handles the MouseClick event for Da1. Sets TextBox1 text to the selected row's ID.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A MouseEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.OK_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the OK button click event. Sets DialogResult to OK and closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.Cancel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Cancel button click event. Sets DialogResult to Cancel and closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.crewSearch_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for the crewSearch form. Triggers search on Enter and closes on Escape.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.crewSearch_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the crewSearch form. Sets the owner to home.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.TextBox3_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ Handles the DoubleClick event for TextBox3. Triggers Button1 click.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for Button1. Initiates a web dialer call and logs the call in CallOutRoster.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for Button2. Closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.crewSearch.TextBox3_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Handles the MouseDoubleClick event for TextBox3. Triggers Button1 click.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A MouseEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertNewArr.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the click event for Button1. Inserts a new crew record into the Arrival table if an ID is provided.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.insertNewArr.insertnew_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the insertNewArr form. Loads arrival data and sets label values.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.rosterSearch_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for the rosterSearch form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.rosterSearch_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the rosterSearch form. Sets up UI based on language.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.rosterSearch_VisibleChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the VisibleChanged event for the rosterSearch form. Focuses TextBox1.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.TabControl1_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the SelectedIndexChanged event for TabControl1. Adjusts form size based on selected tab.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.TabControl1_TabIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the TabIndexChanged event for TabControl1.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Button6_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event for Button6. Performs a search and populates D2 with results.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Button2_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event for Button2. Closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Button1_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event for Button1. Performs a search based on the selected tab and search text.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Button3_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event for Button3. Finds the next matching record in the grid.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Button5_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event for Button5. Closes the form.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.TextBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for TextBox1. Triggers Button1 click on Enter key.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.TextBox2_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for TextBox2. Triggers Button6 click on Enter key.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.D2_CellDoubleClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellDoubleClick event for D2. Updates GPSCallTime and highlights the row.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A DataGridViewCellEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.rosterSearch.Findee(System.String,System.Windows.Forms.DataGridView)">
+ <summary>
+ Finds and highlights a row in D1 matching the search string.
+ </summary>
+ <param name="StrSearchString">The search string to find in D1.</param>
+ <param name="D1">The DataGridView to search.</param>
+ <returns>True if found, otherwise False.</returns>
+</member>
+<member name="M:TMS.rosterSearch.D2_CellValueChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellValueChanged event for D2. Updates D1 if column 11 is changed.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A DataGridViewCellEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.splashScreen.#ctor">
+ <summary>
+ Initializes a new instance of the splashScreen class and sets up scaling.
+ </summary>
+</member>
+<member name="M:TMS.splashScreen.Form5_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Handles the KeyDown event for the splash screen. Closes the form if Escape is pressed.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">A KeyEventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.splashScreen.Form5_Load(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Load event for the splash screen. Starts the timer and sets the copyright label.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+<member name="M:TMS.splashScreen.Timer1_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Tick event for Timer1. Shows the home form, stops the timer, and hides the splash screen.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">An EventArgs that contains the event data.</param>
+</member>
+</members>
+</doc>
